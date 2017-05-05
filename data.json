@@ -1,0 +1,132 @@
+// Company
+{
+	"Id"           :"id-0001",
+	"Fam"          :"Прохоров",
+	"Name"         :"Олег",
+	"Email"        :"email@com.us",
+	"Born"         :"2017-03-04",
+	"Old"          :35,
+	"Stag"         :12,
+	"Datereg"      :"2017-05-02",
+	"Telephone"    :"8-098-56674899",
+	"Position"     :"Proggrammer",
+	"Expectations" :"Ожидание",
+	"Education"    :"Hicgt",
+	"University"   :"KNUBA",
+	"Remark"       :"Search work",
+	"Descript"     :"",
+	"Photo"        :"ph1.png",
+	"Dateadd"      :"2017-02-03T12:34:23",
+	"Ststus"       :"Active",
+	"Login"        :"PrOoleg",
+	"Password"     :"Е-00223",
+	"Expirence":[
+		          {"Id":"1", "Start":"2011-01-01", "Finish":"2016-06-23","Company":"ООО, Новость", "Position":"Слесарь",  "Description":"","Stag":2},
+		          {"Id":"2", "Start":"2011-01-01", "Finish":"2016-06-23","Company":"ООО, Новость", "Position":"Техник",   "Description":"","Stag":1},
+		          {"Id":"3", "Start":"2011-01-01", "Finish":"2016-06-23","Company":"ООО, Новость", "Position":"Водитель", "Description":"","Stag":3}
+		        ],
+
+    "Skills":[ 
+		          {"Id":"1", "Descript":"Windows", "Percent":"20"},
+		          {"Id":"2", "Descript":"Unix",    "Percent":"10"},
+		          {"Id":"3", "Descript":"Ubuntu",  "Percent":"30"},
+		          {"Id":"4", "Descript":"PHP",     "Percent":"20"},
+		          {"Id":"5", "Descript":"ASP",     "Percent":"30"},
+		          {"Id":"1", "Descript":"CSS",     "Percent":"40"},
+	          ],
+
+	"Corces":[ 
+		          {"Id":"1", "Start":"2011-01-01", "Company":"ООО, Unitex",   "Code":"C00034","Cource":"Программирование в среде виндовс"},
+		          {"Id":"2", "Start":"2011-01-01", "Company":"ООО, SoftLine", "Code":"C00034","Cource":"Программирование в среде виндовс"},
+		          {"Id":"3", "Start":"2011-01-01", "Company":"ООО, ItTech",   "Code":"C00034","Cource":"Программирование в среде виндовс"},
+	         ],
+	"Recom":[ 
+		          {"Id":"1", "Company":"ООО, Unitex",   "Position":"SEO",      "Tel":"8-067-0700707"},
+		          {"Id":"2", "Company":"ООО, Unitex",   "Position":"Tech SEO", "Tel":"8-067-0700707"},
+		          {"Id":"3", "Company":"ООО, Unitex",   "Position":"CHIF",     "Tel":"8-067-0700707"},
+	         ]
+}
+
+
+
+// Users
+
+[
+
+{
+   "Id"        :"C_0001",
+   "Name"      :"OOO Company Name",
+   "Datead"    :"2017-02-03T12:34:34",
+   "Address"   :"Кловская, 456",
+   "City"      :"Kyev",
+   "Contact"   :"Прохоров",
+   "Telephone" :"8-067-465775",
+   "Email"     :"werr@com.ua",
+   "Type"      :"Музыка",
+   "Status"    :"Active",
+   "Datepay"   :"2017-02-03T14:45:54", 
+   "Ammount"   :122000,
+   "Countposition":5,
+   "Duedate"   :"2017-05-03T14:45:54", 
+   "Positions" :[
+                  {
+                    "Id"          :"P001",
+                    "Depart"      :"Гараж",    
+                    "Title"       :"Водитель",  
+                    "Start"       :"2017-02-02", 
+                    "Salary"      : 10000, 
+                    "Describe"    :"Водить МАЗ",
+                    "Status"      :"Actyve",  
+                    "Type"        :"Temp", 
+                    "Requirements":["Настойчивость","Целеустремленность"]
+                  },
+
+                  {
+                    "Id"          :"P002",
+                    "Depart"      :"Столовая", 
+                    "Title"       :"Буфетчица", 
+                    "Start"       :"2017-02-03", 
+                    "Salary"      :70000, 
+                    "Describe"    :"Продажа апельсин",
+                    "Status"      :"Close",   
+                    "Type"        :"Const",
+                    "Requirements":["Настойчивость","Целеустремленность"]
+                 },
+
+                  {"Id"          :"P003",
+                   "Depart"      : "Столовая", 
+                   "Title"       :"Уборщица",  
+                   "Start"       :"2017-02-04", 
+                   "Salary"      :30000, 
+                   "Describe"    :"Продажа апельсин", 
+                   "Status"      :"Actyve", 
+                   "Type"        :"Const",
+                   "Requirements":["Настойчивость","Целеустремленность"]
+                  }
+               ]
+}
+
+]
+
+
+// Откликнулись на вакансию
+// Status [New, Active, Reject, Candidat]
+[
+  {"Company":"C0001", "Position":"P0001", "Candidat":"C001", "Status":"New",  "Datecall":"2017-02-03T12:30", "Note":"Описание от сосискателя короткое"},
+  {"Company":"C0001", "Position":"P0002", "Candidat":"C003", "Status":"New",  "Datecall":"2017-02-03T11:23", "Note":"Описание от сосискателя короткое"},
+  {"Company":"C0002", "Position":"P0023", "Candidat":"C004", "Status":"New",  "Datecall":"2017-02-03T11:23", "Note":"Описание от сосискателя короткое"},
+  {"Company":"C0003", "Position":"P0034", "Candidat":"C007", "Status":"Wait", "Datecall":"2017-02-03T11:23", "Note":"Описание от сосискателя короткое"},
+]
+
+
+
+// Log Opertaion
+[
+	{"Compuser":"C0001", "Opertaion":"Delete", "Object":"Position", "Idobj":"P001", "Serios":"WARN"},
+	{"Compuser":"U0001", "Opertaion":"Delete", "Object":"Position", "Idobj":"P001", "Serios":"WARN"},
+]
+
+
+
+
+
